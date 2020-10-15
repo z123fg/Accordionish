@@ -1,24 +1,58 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import Accordionish from "./Accordionish/Accordionish";
+import AccordionishDetails from "./Accordionish/AccordionishDetails/AccordionishDetails";
+import AccordionishSummary from "./Accordionish/AccordionishSummary/AccordionishSummary";
+import ExpandIcon from "./ExpandIcon/ExpandIcon";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{ width: "60%" }}>
+      <Accordionish>
+        <AccordionishSummary expandIcon={<ExpandIcon />}>
+          Accordion 1
+        </AccordionishSummary>
+        <AccordionishDetails>
+          1Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+          malesuada lacus ex, sit amet blandit leo lobortis eget.
+        </AccordionishDetails>
+      </Accordionish>
+      <Accordionish>
+        <AccordionishSummary expandIcon={<ExpandIcon />}>
+          Accordion 1{" "}
+        </AccordionishSummary>
+        <AccordionishDetails>
+          1Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+          malesuada lacus ex, sit amet blandit leo lobortis eget.
+        </AccordionishDetails>
+      </Accordionish>
+      <Accordionish>
+        <AccordionishSummary expandIcon={<ExpandIcon />}>
+          Accordion 1{" "}
+        </AccordionishSummary>
+        <AccordionishDetails>
+          1Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+          malesuada lacus ex, sit amet blandit leo lobortis eget.
+        </AccordionishDetails>
+      </Accordionish>
+      <Accordionish>
+        <AccordionishSummary expandIcon={<ExpandIcon />}>
+          Accordion 1{" "}
+        </AccordionishSummary>
+        <AccordionishDetails>
+          1Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+          malesuada lacus ex, sit amet blandit leo lobortis eget.
+        </AccordionishDetails>
+      </Accordionish>
+      <Accordionish>
+        <AccordionishSummary expandIcon={<ExpandIcon />}>
+          Accordion 1{" "}
+        </AccordionishSummary>
+        <AccordionishDetails>
+          1Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+          malesuada lacus ex, sit amet blandit leo lobortis eget.
+        </AccordionishDetails>
+      </Accordionish>
     </div>
   );
 }
