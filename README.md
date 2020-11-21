@@ -2,9 +2,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Demo of this component is available at http://accordionish-react.s3-website-us-east-1.amazonaws.com/.
 
-## Long press to apply drag and drop 
+Long press to apply drag and drop 
 
-## Click icon button to expand the expansion panel
+Click icon button to expand the expansion panel
 
 ## Available Scripts
 
