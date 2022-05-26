@@ -19,7 +19,7 @@ function App() {
       </Accordionish>
       <Accordionish>
         <AccordionishSummary expandIcon={<ExpandIcon />}>
-          Accordion 1{" "}
+          Accordion 2{" "}
         </AccordionishSummary>
         <AccordionishDetails>
           1Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
