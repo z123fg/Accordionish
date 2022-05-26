@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+  - 10
+directories:
+  - node_modules
+env:
+  - CI=true
+install: npm ci
+script: skip
+
+jobs:
+  include:
+    - stage: test & lint
+      script: npm run test
+      script: npm run lint
